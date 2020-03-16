@@ -1,0 +1,133 @@
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: Use of undefined constant MCRYPT_RIJNDAEL_128 - assumed 'MCRYPT_RIJNDAEL_128' (this will throw an Error in a future version of PHP) in C:\Users\Harun\Desktop\php-desktop\www\config\app.php on line <i>83</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0005</td><td bgcolor='#eeeeec' align='right'>405552</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0424</td><td bgcolor='#eeeeec' align='right'>2586472</td><td bgcolor='#eeeeec'>App\Http\Kernel->handle(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>52</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0424</td><td bgcolor='#eeeeec' align='right'>2586472</td><td bgcolor='#eeeeec'>App\Http\Kernel->sendRequestThroughRouter(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php' bgcolor='#eeeeec'>...\Kernel.php<b>:</b>84</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0431</td><td bgcolor='#eeeeec' align='right'>2606704</td><td bgcolor='#eeeeec'>App\Http\Kernel->bootstrap(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php' bgcolor='#eeeeec'>...\Kernel.php<b>:</b>110</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0431</td><td bgcolor='#eeeeec' align='right'>2606704</td><td bgcolor='#eeeeec'>Illuminate\Foundation\Application->bootstrapWith(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php' bgcolor='#eeeeec'>...\Kernel.php<b>:</b>199</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0478</td><td bgcolor='#eeeeec' align='right'>2740936</td><td bgcolor='#eeeeec'>Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php' bgcolor='#eeeeec'>...\Application.php<b>:</b>183</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0492</td><td bgcolor='#eeeeec' align='right'>2756464</td><td bgcolor='#eeeeec'>Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(  )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\LoadConfiguration.php' bgcolor='#eeeeec'>...\LoadConfiguration.php<b>:</b>38</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0721</td><td bgcolor='#eeeeec' align='right'>3186344</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'C:\Users\Harun\Desktop\php-desktop\www\config\app.php'</font> )</td><td title='C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\LoadConfiguration.php' bgcolor='#eeeeec'>...\LoadConfiguration.php<b>:</b>57</td></tr>
+</table></font>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>
+            /* Copyright (c) 2010, Yahoo! Inc. All rights reserved. Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html */
+            html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+            html { background: #eee; padding: 10px }
+            img { border: 0; }
+            #sf-resetcontent { width:970px; margin:0 auto; }
+                        .sf-reset { font: 11px Verdana, Arial, sans-serif; color: #333 }
+            .sf-reset .clear { clear:both; height:0; font-size:0; line-height:0; }
+            .sf-reset .clear_fix:after { display:block; height:0; clear:both; visibility:hidden; }
+            .sf-reset .clear_fix { display:inline-block; }
+            .sf-reset * html .clear_fix { height:1%; }
+            .sf-reset .clear_fix { display:block; }
+            .sf-reset, .sf-reset .block { margin: auto }
+            .sf-reset abbr { border-bottom: 1px dotted #000; cursor: help; }
+            .sf-reset p { font-size:14px; line-height:20px; color:#868686; padding-bottom:20px }
+            .sf-reset strong { font-weight:bold; }
+            .sf-reset a { color:#6c6159; cursor: default; }
+            .sf-reset a img { border:none; }
+            .sf-reset a:hover { text-decoration:underline; }
+            .sf-reset em { font-style:italic; }
+            .sf-reset h1, .sf-reset h2 { font: 20px Georgia, "Times New Roman", Times, serif }
+            .sf-reset .exception_counter { background-color: #fff; color: #333; padding: 6px; float: left; margin-right: 10px; float: left; display: block; }
+            .sf-reset .exception_title { margin-left: 3em; margin-bottom: 0.7em; display: block; }
+            .sf-reset .exception_message { margin-left: 3em; display: block; }
+            .sf-reset .traces li { font-size:12px; padding: 2px 4px; list-style-type:decimal; margin-left:20px; }
+            .sf-reset .block { background-color:#FFFFFF; padding:10px 28px; margin-bottom:20px;
+                -webkit-border-bottom-right-radius: 16px;
+                -webkit-border-bottom-left-radius: 16px;
+                -moz-border-radius-bottomright: 16px;
+                -moz-border-radius-bottomleft: 16px;
+                border-bottom-right-radius: 16px;
+                border-bottom-left-radius: 16px;
+                border-bottom:1px solid #ccc;
+                border-right:1px solid #ccc;
+                border-left:1px solid #ccc;
+            }
+            .sf-reset .block_exception { background-color:#ddd; color: #333; padding:20px;
+                -webkit-border-top-left-radius: 16px;
+                -webkit-border-top-right-radius: 16px;
+                -moz-border-radius-topleft: 16px;
+                -moz-border-radius-topright: 16px;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+                border-top:1px solid #ccc;
+                border-right:1px solid #ccc;
+                border-left:1px solid #ccc;
+                overflow: hidden;
+                word-wrap: break-word;
+            }
+            .sf-reset a { background:none; color:#868686; text-decoration:none; }
+            .sf-reset a:hover { background:none; color:#313131; text-decoration:underline; }
+            .sf-reset ol { padding: 10px 0; }
+            .sf-reset h1 { background-color:#FFFFFF; padding: 15px 28px; margin-bottom: 20px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+                    <div id="sf-resetcontent" class="sf-reset">
+                <h1>Whoops, looks like something went wrong.</h1>
+                                        <h2 class="block_exception clear_fix">
+                            <span class="exception_counter">1/1</span>
+                            <span class="exception_title"><abbr title="Symfony\Component\Debug\Exception\FatalErrorException">FatalErrorException</abbr> in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Http\Controllers\Auth\AuthController.php line 1" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">AuthController.php line 1</a>:</span>
+                            <span class="exception_message">Namespace declaration statement has to be the very first statement or after any declare call in the script</span>
+                        </h2>
+                        <div class="block">
+                            <ol class="traces list_exception">
+       <li> in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Http\Controllers\Auth\AuthController.php line 1" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">AuthController.php line 1</a></li>
+       <li>at <abbr title="Symfony\Component\Debug\Exception\FatalErrorException">FatalErrorException</abbr>->__construct() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php line 130" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">HandleExceptions.php line 130</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Bootstrap\HandleExceptions">HandleExceptions</abbr>->fatalExceptionFromError() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php line 116" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">HandleExceptions.php line 116</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Bootstrap\HandleExceptions">HandleExceptions</abbr>->handleShutdown() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php line 0" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">HandleExceptions.php line 0</a></li>
+       <li>at <abbr title=""></abbr>bolt_decrypt() in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Http\Controllers\Auth\AuthController.php line 1" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">AuthController.php line 1</a></li>
+       <li> in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\composer\ClassLoader.php line 444" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ClassLoader.php line 444</a></li>
+       <li>at <abbr title=""></abbr>Composer\Autoload\includeFile() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\composer\ClassLoader.php line 322" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ClassLoader.php line 322</a></li>
+       <li>at <abbr title="Composer\Autoload\ClassLoader">ClassLoader</abbr>->loadClass() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\ControllerInspector.php line 29" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ControllerInspector.php line 29</a></li>
+       <li>at <abbr title=""></abbr>spl_autoload_call() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\ControllerInspector.php line 29" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ControllerInspector.php line 29</a></li>
+       <li>at <abbr title="ReflectionClass">ReflectionClass</abbr>->__construct() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\ControllerInspector.php line 29" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ControllerInspector.php line 29</a></li>
+       <li>at <abbr title="Illuminate\Routing\ControllerInspector">ControllerInspector</abbr>->getRoutable() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\Router.php line 251" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Router.php line 251</a></li>
+       <li>at <abbr title="Illuminate\Routing\Router">Router</abbr>->controller() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\Router.php line 226" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Router.php line 226</a></li>
+       <li>at <abbr title="Illuminate\Routing\Router">Router</abbr>->controllers() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php line 210" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Facade.php line 210</a></li>
+       <li>at <abbr title="Illuminate\Support\Facades\Facade">Facade</abbr>::__callStatic() in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Http\routes.php line 2" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">routes.php line 2</a></li>
+       <li>at <abbr title="Illuminate\Support\Facades\Facade">Facade</abbr>::controllers() in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Http\routes.php line 2" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">routes.php line 2</a></li>
+       <li> in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Providers\RouteServiceProvider.php line 40" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 40</a></li>
+       <li>at <abbr title="App\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->App\Providers\{closure:C:\Users\Harun\Desktop\php-desktop\www\app\Providers\RouteServiceProvider.php:38-41}() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\Router.php line 352" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Router.php line 352</a></li>
+       <li>at <abbr title=""></abbr>call_user_func:{C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\Router.php:352}() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Routing\Router.php line 352" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Router.php line 352</a></li>
+       <li>at <abbr title="Illuminate\Routing\Router">Router</abbr>->group() in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Providers\RouteServiceProvider.php line 41" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 41</a></li>
+       <li>at <abbr title="App\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->map() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Container\Container.php line 526" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Container.php line 526</a></li>
+       <li>at <abbr title=""></abbr>call_user_func_array:{C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Container\Container.php:526}() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Container\Container.php line 526" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Container.php line 526</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->call() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php line 68" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 68</a></li>
+       <li>at <abbr title="App\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->loadRoutes() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php line 31" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 31</a></li>
+       <li>at <abbr title="App\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->boot() in <a title="C:\Users\Harun\Desktop\php-desktop\www\app\Providers\RouteServiceProvider.php line 25" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 25</a></li>
+       <li>at <abbr title="App\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->boot() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Container\Container.php line 526" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Container.php line 526</a></li>
+       <li>at <abbr title=""></abbr>call_user_func_array:{C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Container\Container.php:526}() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Container\Container.php line 526" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Container.php line 526</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->call() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php line 703" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 703</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->bootProvider() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php line 685" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 685</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->Illuminate\Foundation\{closure:C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:684-686}() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php line 686" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 686</a></li>
+       <li>at <abbr title=""></abbr>array_walk() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php line 686" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 686</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->boot() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php line 15" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">BootProviders.php line 15</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Bootstrap\BootProviders">BootProviders</abbr>->bootstrap() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Application.php line 183" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 183</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->bootstrapWith() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php line 199" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 199</a></li>
+       <li>at <abbr title="App\Http\Kernel">Kernel</abbr>->bootstrap() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php line 110" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 110</a></li>
+       <li>at <abbr title="App\Http\Kernel">Kernel</abbr>->sendRequestThroughRouter() in <a title="C:\Users\Harun\Desktop\php-desktop\www\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php line 84" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 84</a></li>
+       <li>at <abbr title="App\Http\Kernel">Kernel</abbr>->handle() in <a title="C:\Users\Harun\Desktop\php-desktop\www\index.php line 52" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">index.php line 52</a></li>
+       <li>at <abbr title=""></abbr>{main}() in <a title="C:\Users\Harun\Desktop\php-desktop\www\index.php line 0" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">index.php line 0</a></li>
+    </ol>
+</div>
+
+            </div>
+    </body>
+</html>
